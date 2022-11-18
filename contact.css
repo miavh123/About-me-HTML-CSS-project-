@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ .hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+ }
+
+ nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ nav ul li {
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
+ }
+
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+ }
+
+ .paragraph{
+    margin-left: 8%;
+    margin-top: 15%;
+ }
+
+ .paragraph h1{
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+ }
+
+ #color{
+    color: purple;
+ }
+
+ .page1{
+    width: 20%;
+    height: 10%;
+    right: 100px;
+    position: relative;
+    margin-left: 69%;
+    top:10px;
+    size-adjust: 10px;
+  
+    
+ }
+
+ .black{
+    display:inline-flex;
+    margin-top:  15px;
+    width: 100%;
+    padding:100px 15%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    position:absolute
+   
+    
+ }
+ 
+ .black div{
+   display: inline-flex;
+   text-align: center;
+
+
+
+ }
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #db0786;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .holder {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    display:  flex ;
+    padding: 79px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: baseline;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+
+.pageName{
+    margin-left: 40%;
+    margin-top: 4%;
+}

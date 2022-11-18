@@ -1,0 +1,81 @@
+header{
+   
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: underline;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
+
+nav{
+    display: inline-block;
+    padding-top: 45px;
+    margin-left: 9%;
+    gap: 4em;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}  a:hover {
+    background-color: rgb(219, 236, 228);
+  } 
+
+body{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUIAAACdCAMAAAD2bIHgAAAAA1BMVEUAAACnej3aAAAASElEQVR4nO3BMQEAAADCoPVPbQ0PoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACuDMYXAAEuIQbxAAAAAElFTkSuQmCC);
+    margin: 1px;
+    padding: 0%;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+    color:rgb(0, 0, 0);
+    margin-bottom: auto;
+    justify-content: center;
+    background: linear-gradient(blue,white);
+}
+
+.name{
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: white;
+    margin: auto;
+} 
+
+
+
+nav{
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: underline;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h2{
+    text-size-adjust: 20px;
+}
+
+.directions{
+    
+    display:flex;
+    justify-content:center;
+    padding: 10px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    text-decoration: underline;
+    margin-left: 5em;
+    margin-right: 5em;
+    
+}
